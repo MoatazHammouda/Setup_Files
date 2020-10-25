@@ -34,7 +34,7 @@ if "Synchronize_Data" not in lst:
 	os.system(f"sudo git clone https://github.com/MoatazHammouda/synchronize_data.git {desktop}Synchronize_Data")
 
 if "Bash_Scripts" not in lst:
-	os.system(f"sudo git clone https://github.com/MoatazHammouda/Bash_Scripts.git {desktop}Bash_Scripts")
+	os.system(f"sudo git clone -b develop https://github.com/MoatazHammouda/Bash_Scripts.git {desktop}Bash_Scripts")
 	os.system(f"sudo chmod u+x {desktop}Bash_Scripts/*")
 
 
