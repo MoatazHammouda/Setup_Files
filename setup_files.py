@@ -22,19 +22,19 @@ if "MetaBase-CSV-Bash-Quat" not in lst:
 	os.mkdir(desktop+"MetaBase-CSV-Bash-Quat/Old")
 
 if "RSSI" not in lst:
-	os.system(f"sudo git clone https://github.com/MoatazHammouda/RSSI_Node.git {desktop}RSSI")
+	os.system(f"sudo git clone https://github.com/MoatazHammouda/RSSI_Node.git /home/pi/Desktop/RSSI")
 
 if "Configs_Test" not in lst:
-	os.system(f"sudo git clone -b test https://github.com/MoatazHammouda/ConfigFilesMB.git {desktop}Configs_Test")
+	os.system(f"sudo git clone -b test https://github.com/MoatazHammouda/ConfigFilesMB.git /home/pi/Desktop/Configs_Test")
 
 if "Configs" not in lst:
-	os.system(f"sudo git clone https://github.com/MoatazHammouda/ConfigFilesMB.git {desktop}Configs")
+	os.system(f"sudo git clone https://github.com/MoatazHammouda/ConfigFilesMB.git /home/pi/Desktop/Configs")
 
 if "Synchronize_Data" not in lst:
-	os.system(f"sudo git clone https://github.com/MoatazHammouda/synchronize_data.git {desktop}Synchronize_Data")
+	os.system(f"sudo git clone https://github.com/MoatazHammouda/synchronize_data.git /home/pi/Desktop/Synchronize_Data")
 
 if "Bash_Scripts" not in lst:
-	os.system(f"sudo git clone -b develop https://github.com/MoatazHammouda/Bash_Scripts.git {desktop}Bash_Scripts")
-	os.system(f"sudo chmod u+x {desktop}Bash_Scripts/*")
+	os.system(f"sudo git clone -b develop https://github.com/MoatazHammouda/Bash_Scripts.git /home/pi/Desktop/Bash_Scripts")
+	os.system(f"sudo chmod u+x /home/pi/Desktop/Bash_Scripts/*")
 
 
